@@ -36,11 +36,11 @@ if defined var1 (
   )
 )
 
-if "%ACTIVATOR_HOME%"=="" (
+rem if "%ACTIVATOR_HOME%"=="" (
 	set "ACTIVATOR_HOME=%~dp0"
 	@REM remove trailing "\" from path
 	set ACTIVATOR_HOME=!ACTIVATOR_HOME:~0,-1!
-)
+rem )
 
 set ERROR_CODE=0
 set APP_VERSION=1.3.6
